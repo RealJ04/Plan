@@ -1,0 +1,87 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f2ebe3;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow-inline: hidden;
+    padding:60px 0;
+}
+
+.title-section {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.table-pricing{
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pricing {
+    width: 30%;
+    text-align: center;
+    background-color:#CA2E55;
+    height: 550px;
+    border-radius: 10px;
+    padding: 50px 10px;
+    overflow: hidden;
+    color: #fff;
+}
+
+.active {
+    background-color: #70A37F;
+    transform: scale(1.1);
+}
+
+.premium {
+    background-color: #4D5382;
+}
+
+.name-pricing {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.price {
+    font-size: 22px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    letter-spacing: .125rem;
+}
+
+.benefice {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted white;
+    padding-bottom: 5px;
+}
+
+.cta {
+    background-color: #fff;
+    color:#4D5382;
+    display: inline-block;
+    margin-top: 30px;
+    width: 150px;
+    padding: 10px 0;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
